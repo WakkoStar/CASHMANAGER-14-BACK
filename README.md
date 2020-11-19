@@ -37,3 +37,19 @@ Create a server and set
 
 Go on `http://localhost:8080` and enjoy
 _Si vous voyez une erreur Whitelabel Error Page tout est bon (c'est normal)_
+
+### Reload the page
+
+Avoid tests and warns
+
+```
+./mvnw install -DskipTests
+```
+
+Launch docker
+
+```
+docker-compose up --build
+```
+
+_J'ai pas réussi a mettre un hot reload :'(_
